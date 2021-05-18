@@ -116,7 +116,7 @@ document.getElementById('reset').addEventListener('click',()=>{
 // Submit Functionality
 
 let validNum = {'0':1,'1':0,'2':1,'3':1,'4':1,'5':1,'6':1,'7':1,'8':1,'9':1,'.':1};
-let validOper = {'x':1,'+':1,'-':1,'/':1}
+let validOper = {'x':1,'+':1,'-':1,'/':1,'*':1}
 
 document.getElementById('submit').addEventListener('click',()=>{
     let input = displayElm.value;
@@ -185,7 +185,7 @@ document.getElementById('submit').addEventListener('click',()=>{
     index = 0;
     length = operations.length;
     while(index<length){
-        if(operations[index]==='x'){
+        if(operations[index]==='x' || operations[index]==='*'){
             let res = numbers[index] * numbers[index+1];
             numbers[index] = res;
             numbers.splice(index+1, 1);
