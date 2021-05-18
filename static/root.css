@@ -29,7 +29,10 @@
 
 body{
     background-color: var(--main-background-clr);
-    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; */
 }
 
 .calculator-container{
@@ -42,4 +45,26 @@ body{
 .calculator{
     width: 500px;
     margin:0px 5%;
+}
+
+/* .attribution{
+    margin-top: 100px;
+    color: white;
+
+} */
+
+.attribution a{
+    color: var(--toogle-clr);
+    text-decoration: none;
+}
+
+.attribution{
+    max-width: 34%;
+    width:500px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    bottom:10px;
+    left:33%;
+    right:33%;
 }
