@@ -1,0 +1,19 @@
+.display{
+    margin-top:20px;
+    width: 80%;
+    background-color: var(--screen-background-clr);
+    padding:7% 10%;
+    color:var(--display-text-clr);
+    font-size: 34px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: right;
+    outline: none;
+    border: none;
+}
+
+.display::-webkit-outer-spin-button,
+.display::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

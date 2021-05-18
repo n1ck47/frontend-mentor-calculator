@@ -1,0 +1,86 @@
+
+
+
+.heading{
+    color: var(--display-text-clr);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#theme{
+    display: flex;
+    align-items: center;
+}
+
+#theme :nth-child(1){
+    margin-right: 20px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#theme-btn{
+    position: relative;
+    width: 70px;
+    height: 25px;
+    background-color: var(--keypad-background-clr);
+
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    font-size: 10px;
+
+    /* padding: 2px; */
+}
+
+#theme-btn:hover{
+    cursor: pointer;
+}
+
+#theme-btn::before{
+    content: '';
+    position: absolute;
+    height:15px;
+    width:15px;
+
+    background-color: var(--toogle-clr);
+
+    top: 5px;
+    left: var(--theme-btn-pos);
+    border-radius: 100%;
+
+}
+
+#theme-btn-1{
+    top:-15px;
+    left:10px;
+    position: absolute;
+    
+}
+
+#theme-btn-2{
+    top:-15px;
+    left: 30px;
+    position: absolute;
+    
+}
+
+#theme-btn-3{
+    top:-15px;
+    left: 50px;
+    position: absolute;
+    
+}
+
+#theme-btn-1:hover,#theme-btn-2:hover,#theme-btn-3:hover{
+    cursor: default;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Spartan', sans-serif;
+}
+
+:root{
+    --main-background-clr: hsl(222, 26%, 31%);
+    --keypad-background-clr: hsl(223, 31%, 20%);
+    --screen-background-clr: hsl(224, 36%, 15%);
+    
+    --toogle-clr: hsl(6, 63%, 50%);
+
+    --key-background-clr: hsl(30, 25%, 89%);
+    --key-shadow-clr: hsl(28, 16%, 65%);
+    --key-del-background-clr: hsl(225, 21%, 49%);
+    --key-del-shadow-clr: hsl(224, 28%, 35%);
+    --key-eql-background-clr: hsl(6, 63%, 50%);
+    --key-eql-shadow-clr: hsl(6, 70%, 34%);
+
+    --key-text-clr : hsl(221, 14%, 31%);
+
+    --display-text-clr: white;
+
+    --theme-btn-pos: 5px;
+}
+
+body{
+    background-color: var(--main-background-clr);
+    
+}
+
+.calculator-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:120px
+}
+
+.calculator{
+    width: 400px;
+    margin:0px 5%;
+}

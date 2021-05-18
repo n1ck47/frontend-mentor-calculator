@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./static/root.css" >
+  <link rel="stylesheet" type="text/css" href="./static/heading.css" >
+  <link rel="stylesheet" type="text/css" href="./static/display.css" >
+  <link rel="stylesheet" type="text/css" href="./static/keypad.css" >
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<body>
+
+  <div class='calculator-container'>
+    <!-- Calculator Section Starts-->
+    <div class="calculator">
+      <!-- Heading Section -->
+      <div class="heading">
+
+        <div id='logo'>     <!-- logo-->
+          calc
+        </div>
+        
+        <div id='theme'>    <!-- Theme -->
+          <div>
+            THEME
+          </div>
+          <div id='theme-btn'>
+            <div id='theme-btn-1'>1</div>
+            <div id='theme-btn-2'>2</div>
+            <div id='theme-btn-3'>3</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Display Section-->
+      <input type='text' class="display">
+      </input>
+
+      <div class="keypad">
+        <div id='row-1'>
+          <div class="small-btn" id='key-7'>7</div>
+          <div class="small-btn"id='key-8'>8</div>
+          <div class="small-btn" id='key-9'>9</div>
+          <div class="small-btn" id='del'>DEL</div>
+        </div>
+        <div id='row-2'>
+          <div class="small-btn" id='key-4'>4</div>
+          <div class="small-btn" id='key-5'>5</div>
+          <div class="small-btn" id='key-6'>6</div>
+          <div class="small-btn" id='add'>+</div>
+        </div>
+        <div id='row-3'>
+          <div class="small-btn" id='key-1'>1</div>
+          <div class="small-btn" id='key-2'>2</div>
+          <div class="small-btn" id='key-3'>3</div>
+          <div class="small-btn" id='sub'>-</div>
+        </div>
+        <div id='row-4'>
+          <div class="small-btn" id='key-decimal'>.</div>
+          <div class="small-btn" id='key-0'>0</div>
+          <div class="small-btn" id='divide'>/</div>
+          <div class="small-btn" id='multiply'>x</div>
+        </div>
+        <div id='row-5'>
+          <div class="large-btn" id='reset'>RESET</div>
+          <div class="large-btn" id='submit'>=</div>
+        </div>
+      </div>
+    </div>
+    <!-- Calculator Section Ends-->
+  </div>
+
+
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src='./static/index.js' ></script>
+</body>
+</html>

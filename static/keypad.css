@@ -1,0 +1,58 @@
+.keypad{
+    margin-top:25px;
+    padding: 5%;
+    width: 90%;
+    background-color: var(--keypad-background-clr);
+    border-radius: 10px;
+}
+
+#row-1, #row-2, #row-3, #row-4, #row-5{
+    display: flex;
+}
+
+.small-btn{
+    margin-right: 5%;
+    margin-bottom: 15px;
+    width: 22%;
+    height: 50px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--key-text-clr);
+    background-color: var(--key-background-clr);
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0px 8px 0.5px -6px var(--key-shadow-clr);
+}
+
+#del, #sub, #multiply, #add, #submit{
+    margin-right: 0px;
+}
+
+#del{
+    font-size:16px;
+    color: white;
+    background-color: var(--key-del-background-clr);
+    box-shadow: 0px 8px 0.5px -6px var(--key-del-shadow-clr);
+}
+
+.large-btn{
+    margin-right: 5%;
+    height: 50px;
+    font-size: 16px;
+    width: 47.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--key-del-background-clr);
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0px 8px 0.5px -6px var(--key-del-shadow-clr);
+}
+
+#submit{
+    background-color: var(--key-eql-background-clr);
+    box-shadow: 0px 8px 0.5px -6px var(--key-eql-shadow-clr);
+}
